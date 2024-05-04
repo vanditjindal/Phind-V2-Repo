@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333; /* Adjusted for better contrast */
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #e0e0e0;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .pastel-bg {
+            background-color: #f0e4d7;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .pastel-text {
+            color: #808080; /* Adjusted for better contrast */
+        }
+        .product-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .product-list li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .checkout-form {
+            margin-top: 20px;
+        }
+        .checkout-form input, .checkout-form button {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to Our Flower Shop</h1>
+    <div class="pastel-bg">
+        <p class="pastel-text">Discover the beauty of our flower collection. Each bouquet is carefully selected to bring joy and beauty into your life.</p>
+    </div>
+    <h2>Our Products</h2>
+    <ul class="product-list">
+        <li>Rose Bouquet - $20</li>
+        <li>Tulip Arrangement - $15</li>
+        <li>Sunflower Bouquet - $25</li>
+    </ul>
+    <h2>Checkout</h2>
+    <form class="checkout-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <label for="product">Product Name</label>
+        <input type="text" id="product" placeholder="Product Name" required>
+
+        <button type="submit">Checkout</button>
+    </form>
+</div>
+<div class="footer">
+    <p>Contact Info: 123 Flower Street, Flowerville, FL 12345</p>
+    <p>Store Location: 123 Flower Street, Flowerville, FL 12345</p>
+    <p>Site Map: <a href="#">Home</a> | <a href="#">Products</a> | <a href="#">Checkout</a></p>
+    <p>&copy; 2024 Flower Shop. All rights reserved.</p>
+</div>
+</body>
+</html>
